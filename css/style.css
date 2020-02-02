@@ -12,3 +12,24 @@ body {
     height: 100%;
 	float: right;
 }
+#contourfLegend {
+    position: absolute;
+    right: 75px;
+    bottom: 20px;
+    font-size:15px;
+    z-index: 1500;
+    background-color: #e2e2e2;
+    opacity: 0.8;
+    line-height: 24px;
+  }
+#contourfLegend i {
+    width:15px;
+    height:15px;
+    float:left;
+    margin-top: 4px;
+      margin-bottom: 4px;
+      margin-left: 8px;
+    margin-right: 8px;
+    opacity: 0.8;
+    z-index:1550;
+}
